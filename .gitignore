@@ -1,0 +1,5 @@
+.idea
+.DS_Store
+.pydevproject
+*.komodoproject
+*.sublime-*
