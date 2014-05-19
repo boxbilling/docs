@@ -3,3 +3,6 @@
 .pydevproject
 *.komodoproject
 *.sublime-*
+*.pyc
+build
+en/_build

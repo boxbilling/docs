@@ -1,0 +1,75 @@
+.. _faq:
+
+Faq
+====================
+
+Check these already asked questions before submitting new ticket. It is very 
+likely it has already been answered.
+
+How to obtain license key?
+----------------------------------------------------------------------------
+
+Get license at http://www.boxbilling.com/order
+
+How can I access BoxBilling admin area?
+----------------------------------------------------------------------------
+
+BoxBilling admin area is located at url: http://www.yourdomain.com/bb-admin.php
+
+I have modified theme file but changes did not appear. Why?
+----------------------------------------------------------------------------
+
+Set BB_DEBUG to TRUE in **bb-config.php** file
+
+What are the differences between Pro and Free versions of BoxBilling?
+----------------------------------------------------------------------------
+
+See differences at order page http://www.boxbilling.com/order
+
+Blank page or Error 500
+----------------------------------------------------------------------------
+
+Broken/missing ionCube loader
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Broken/missing ioncube leads normally to generating *http 500 error* or 
+displaying information about missing ioncube, but it also may result with blank 
+page.
+
+Make sure you have downloaded and installed ioncube that suits your cpu 
+architecture and php version - for more info about ioncube installation 
+go to www.ioncube.com
+
+Use ionCube http://www.ioncube.com/loader-wizard/loader-wizard.zip loader wizard
+to help you install required extension on your server.
+
+Missing or disabled curl extension
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+BoxBilling use curl a lot - its by default enabled in php, but sometimes its 
+either not present or its in list of disabled_functions in php.ini
+
+Using phpinfo() or php.ini check whether curl extension is enabled, 
+if not recompile php. If curl_exec is within disabled_functions list, 
+remove it from php.ini
+
+Cache folder is not writable
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+bb-data/cache folder is not writable. BoxBilling keeps compiled templates in 
+this directory, if its not writable it may result with blank page error.
+To fix that: CHMOD 777 bb-data/cache
+
+Low memory_limit
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Blank page may occur on some server environments, where PHP does not 
+handle garbage collection properly. Increase *memory_limit* in *php.ini* to 
+reasonable value - over 128MB is always safe or upgrade PHP to latest version.
+
+
+I get an error: Call to undefined function gettext() in ...
+----------------------------------------------------------------------------
+
+Make sure you server has **gettext** extension enabled. Contact your hosting 
+provider to enable it for you.
