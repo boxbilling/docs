@@ -41,4 +41,5 @@ Contents
    reference/api-admin
    reference/hooks
    reference/updating
+   reference/tutorials
    reference/credits
