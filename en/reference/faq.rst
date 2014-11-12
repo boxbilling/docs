@@ -19,12 +19,12 @@ Get license at http://www.boxbilling.com/order
 How can I access BoxBilling admin area?
 ----------------------------------------------------------------------------
 
-BoxBilling admin area is located at url: http://www.yourdomain.com/bb-admin.php
+BoxBilling admin area is located at url: http://www.yourdomain.com/index.php?_url=/bb-admin.  This link can be changed in ``bb-config.php`` file by editing value of ``admin_area_prefix``.
 
 I have modified theme file but changes did not appear. Why?
 ----------------------------------------------------------------------------
 
-Set BB_DEBUG to TRUE in **bb-config.php** file
+Set BB_DEBUG to TRUE in ``bb-config.php`` file
 
 What are the differences between Pro and Free versions of BoxBilling?
 ----------------------------------------------------------------------------
