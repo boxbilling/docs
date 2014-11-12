@@ -29,20 +29,6 @@ See differences at order page http://www.boxbilling.com/order
 Blank page or Error 500
 ----------------------------------------------------------------------------
 
-Broken/missing ionCube loader
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Broken/missing ioncube leads normally to generating *http 500 error* or 
-displaying information about missing ioncube, but it also may result with blank 
-page.
-
-Make sure you have downloaded and installed ioncube that suits your cpu 
-architecture and php version - for more info about ioncube installation 
-go to www.ioncube.com
-
-Use ionCube http://www.ioncube.com/loader-wizard/loader-wizard.zip loader wizard
-to help you install required extension on your server.
-
 Missing or disabled curl extension
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
