@@ -6,6 +6,11 @@ Faq
 Check these already asked questions before submitting new ticket. It is very 
 likely it has already been answered.
 
+Do I still need to buy PRO license if I use open source BoxBilling?
+----------------------------------------------------------------------------
+
+Yes.
+
 How to obtain license key?
 ----------------------------------------------------------------------------
 
