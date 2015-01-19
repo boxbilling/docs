@@ -218,3 +218,6 @@ man_pages = [
 ]
 
 highlight_language = 'php'
+
+html_theme = "sphinx_rtd_theme"
+html_theme_path = ["_themes/sphinx_rtd_theme", ]
