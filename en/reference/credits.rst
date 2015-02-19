@@ -3,8 +3,8 @@ Credits
 
 BoxBilling is using these open source projects
 
-Doctrine 
-    http://www.doctrine-project.org/
+Redbean
+    http://redbeanphp.com/
 Twig 
     http://www.twig-project.org/ 
 
