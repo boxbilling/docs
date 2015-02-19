@@ -42,4 +42,5 @@ Contents
    reference/hooks
    reference/updating
    reference/tutorials
+   reference/unofficial-extensions
    reference/credits
