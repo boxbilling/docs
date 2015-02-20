@@ -10,7 +10,7 @@ Environment on which you are going to install BoxBilling should meet
 these prerequisites:
 
 * Linux OS
-* PHP Version 5.2.4 or later with extensions
+* PHP >=5.3.3 or later with extensions
 
     * PDO MySQL
     * curl
@@ -21,20 +21,10 @@ these prerequisites:
     * mcrypt
 
 * MySQL Version 4.1.* or later
-* IonCube 3.1 (or greater) loaders
 * Apache mod_rewrite module enabled, for SEO urls only
 
 It is recommended to install BoxBilling on VPS server with APC cache enabled
 for best performance and security reasons.
-
-Video guide
--------------------------------
-
-.. only:: html
-
-    .. raw:: html
-
-        <iframe width="560" height="315" src="http://www.youtube.com/embed/oyA5posaMkc" frameborder="0" allowfullscreen></iframe>
 
 
 Installation guide
@@ -59,7 +49,7 @@ by opening www.yourdomain.com/billing/install
 #. In the next screen a "Pre-Installation check" will recheck if the system (hosting account) does meet the minimum requirements for installation. Most often you will need to login to your account via a file manager (or FTP manager) and set the required permissions (chmod 777) on these files and folders.
 #. In the next step you will need to setup access to the MySQL database. Enter an existing database and user (with all permissions granted). If you have any trouble setting up a MySQL database and user, please consult your hosting provider. For example, if you are hosting on cPanel powered hosting, you can setup database and users via the cPanel > MySQL area.
 #. Enter the e-mail and credentials for the administrator account. A greeting letter will be sent to the administrator e-mail account upon successful installation of BoxBilling.
-#. Even though BoxBilling is free it requires `license key`_  in order to work. `Obtain license key`_
+#. Even though BoxBilling is free it requires `Obtain license key`_  in order to work. `Obtain license key`_
 #. Finish installation with confirming that all the information is correct.
 
 After installation is complete
@@ -83,7 +73,7 @@ open **bb-config.php** file and edit line with preferred timezone.
 
 .. code-block:: php
 
-    date_default_timezone_set('America/New_York');
+      'timezone'    =>  'UTC',
 
 All available timezones are listed at http://php.net/manual/en/timezones.php
 
@@ -98,7 +88,7 @@ To enable search engine friendly urls follows these steps:
 
 .. code-block:: php
 
-    define('BB_SEF_URLS', TRUE);
+    'sef_urls'  => true,
 
 
 .. note::
@@ -113,7 +103,7 @@ Enable BoxBilling debug mode in **bb-config.php** file:
 
 .. code-block:: php
 
-    define('BB_DEBUG', TRUE);
+    'debug'     => true,
 
 This will show errors on your site and provides more debugging information.
 If you set BB_DEBUG to FALSE it will still log all errors log file. 
@@ -162,5 +152,4 @@ index.php
     Main BoxBilling file where all requests are gathered
 
 .. _`download page`: http://www.boxbilling.com/download
-.. _`license key`: http://www.boxbilling.com/order
 .. _`Obtain license key`: http://www.boxbilling.com/order
