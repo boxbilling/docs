@@ -29,7 +29,7 @@ and is the de facto standard for localization in the open source/free software r
 Translating client area with Poedit
 --------------------------------------------------------------
 
-Assuming translation file is not available at http://extensions.boxbilling.com/
+Assuming translation file is not available at https://www.transifex.com/projects/p/boxbilling/
 you can translate BoxBilling using Poedit.
 
 * Download and install http://www.poedit.net/
@@ -51,7 +51,7 @@ Adding new language
 
 Follow instructions bellow to install new language.
 
-* Check if your language translation file is available at http://extensions.boxbilling.com/
+* Check if your language translation file is available at https://www.transifex.com/projects/p/boxbilling/
 * Download language files and place them to **bb-locale** folder
 * Language will be automatically detected and can be changed in client area
 
