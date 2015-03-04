@@ -3,12 +3,12 @@
 Selling SolusVM VPS
 ====================
 
-BoxBilling enables you to sell virtual private servers usign SolusVM API
+BoxBilling enables you to sell virtual private servers using SolusVM API
 
-Enable SolusVm Extension
+Enable SolusVM Extension
 ----------------------------------------------------------------------------
 
-BoxBilling ships with solusvm extension by default. It can be enabled in
+BoxBilling ships with solusVM extension by default. It can be enabled in
 Extensions > Overview page.
 
 .. only:: html
@@ -17,10 +17,10 @@ Extensions > Overview page.
 
         <img src="http://i.imgur.com/sRK1E.png" alt="Screen">
 
-Once you have enabled extension you will be redirected to Solusvm 
+Once you have enabled extension you will be redirected to SolusVM
 configuration page.
 
-Configuration page is always accessible at BoxBilling admin area > Configuration > SolusVm management
+Configuration page is always accessible at BoxBilling admin area > Configuration > SolusVM management
 
 .. only:: html
 
@@ -31,7 +31,7 @@ Configuration page is always accessible at BoxBilling admin area > Configuration
 SolusVM configuration
 ----------------------------------------------------------------------------
 
-Go to BoxBilling admin area > Configuration > SolusVm management menu
+Go to BoxBilling admin area > Configuration > SolusVM management menu
 
 .. only:: html
 

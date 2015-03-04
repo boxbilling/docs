@@ -76,4 +76,4 @@ Invoices has these statuses:
 * unpaid   - Proforma invoice.
 * refunded - refund invoice. 
 * canceled - use canceled status to imitate invoice as deleted, but keep 
-  record in database. Usefull if you need to keep invoice order intact.
+  record in database. Useful if you need to keep invoice order intact.

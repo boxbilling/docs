@@ -9,7 +9,7 @@ Configure domain
 Before you can offer domains registration for your clients, you will need to
 setup and attach a domain registrar to top level domain.
 
-You can either use a **Email** one (the domains are not setup via boxbilling on
+You can either use a **Email** one (the domains are not setup via BoxBilling on
 such a case, and you will need to register them at your registrar manually), or
 use a supported domain registrar.
 

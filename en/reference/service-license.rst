@@ -22,7 +22,7 @@ Prefix
     to ignore this option.
 
 Length
-    License key length. Default license plugin will generate selected legth
+    License key length. Default license plugin will generate selected length
     license key and add prefix.
 
 Validate IP:
@@ -46,6 +46,6 @@ License plugin
 
 BoxBilling gives you ability to provide your own license generation script.
 
-* License plugin is PHP class **License_PluginName** with one method **generate**
-* License plugins are located at **bb-library/License/** folder
-* Default plugin at **bb-library/License/Default.php**
+* License plugin is PHP class **PluginName** in **Box\Mod\Servicelicense\Plugin** namespace with one method **generate**
+* License plugins are located at **bb-modules/Servicelicense/Plugin** folder
+* Default plugin at **bb-modules/Servicelicense/Plugin/Simple.php**

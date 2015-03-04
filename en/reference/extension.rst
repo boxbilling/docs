@@ -3,11 +3,6 @@ Extensions
 
 BoxBilling is designed to be extended easily.
 
-Sharing extensions
---------------------------------------------
-
-Visit https://extensions.boxbilling.com/
-
 .. _extension-event-listener:
 
 Event listener - Hook
@@ -37,6 +32,9 @@ Example BoxBilling event listener class
     {
         public static function onBeforeClientSignUp(Box_Event $event)
         {
+            $di = $event->getDi();             //Retrieve DI (Dependency Injector)
+            $db    = $di['db'];                //Get any object from DI (in this case it is database object)
+            $params = $event->getParameters(); //Getting parameters which were attached to this event
             $disable_registrations = TRUE;
             if($disable_registrations) {
                 throw new Exception('New registrations are currently disabled', 512);
@@ -53,7 +51,7 @@ You can create your own server manager extension and put in
 **/bb-library/Server/Manager** directory
 
 Following example should be enough to understand the concept of server manager adapter class.
-You create **Server_Manager_Dummy** class
+You create **Server_Manager_Custom** class
 
 .. code-block:: php
 
@@ -362,20 +360,14 @@ You create **Payment_Adapter_Custom** class
     /**
      * BoxBilling
      *
-     * LICENSE
+     * @copyright BoxBilling, Inc (http://www.boxbilling.com)
+     * @license   Apache-2.0
      *
-     * This source file is subject to the license that is bundled
-     * with this package in the file LICENSE.txt
-     * It is also available through the world-wide-web at this URL:
-     * http://www.boxbilling.com/LICENSE.txt
-     * If you did not receive a copy of the license and are unable to
-     * obtain it through the world-wide-web, please send an email
-     * to license@boxbilling.com so we can send you a copy immediately.
-     *
-     * @copyright Copyright (c) 2010-2012 BoxBilling (http://www.boxbilling.com)
-     * @license   http://www.boxbilling.com/LICENSE.txt
-     * @version   $Id$
+     * Copyright BoxBilling, Inc
+     * This source file is subject to the Apache-2.0 License that is bundled
+     * with this source code in the file LICENSE
      */
+
     class Payment_Adapter_Custom
     {
         private $config = array();

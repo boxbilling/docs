@@ -6,9 +6,9 @@ Currency
 How currency logic works on BoxBilling
 ------------------------------------------------------------------------------
 
-* Customers select a home currency
-* Product pricing is displayed according to the home currency
-* Customers receive invoices AND statements in their home currency
+* Customers select a main currency
+* Product pricing is displayed according to main currency
+* Customers receive invoices AND statements in their main currency
 * BoxBilling receives payments in the invoice currency (via the appropriate Gateway)
 * Money from payments is deposited into the appropriate currency account with your bank
 
