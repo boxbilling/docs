@@ -40,7 +40,7 @@ Updating with console
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Geeky method to update BoxBilling. Create **update.sh** script in 
-your boxbilling installation directory.
+your BoxBilling installation directory.
 
 .. code-block:: guess
 

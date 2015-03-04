@@ -322,5 +322,5 @@ Dump shopping cart contents browser to console:
 API Based Modules
 --------------------------------------------
 
-If you have developed API based extension you can share it at 
-http://extensions.boxbilling.com/
+If you have developed API based extension, please open pull request at
+https://github.com/boxbilling/extensions

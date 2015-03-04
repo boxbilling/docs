@@ -163,7 +163,7 @@ Get shopping cart contents by id
 Required parameters
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:id: **int**   - shoppoing cart id
+:id: **int**   - shopping cart id
 
 API call examples
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -347,7 +347,7 @@ Optional parameters
 :password: **string**   - client password
 :auth_type: **string**   - client authorization type. Default null
 :last_name: **string**   - client last name
-:aid: **string**   - alternative ID. If you import cients from other systems you can use this field to store foreign system ID
+:aid: **string**   - alternative ID. If you import clients from other systems you can use this field to store foreign system ID
 :group_id: **string**   - client group id
 :status: **string**   - client status: "active, suspended, canceled"
 :created_at: **string**   - ISO 8601 date for client creation date
@@ -367,7 +367,7 @@ Optional parameters
 :state: **string**   - country state
 :phone: **string**   - Phone number
 :phone_cc: **string**   - Phone country code
-:document_type: **string**   - Related document type, ie: passpord, driving license
+:document_type: **string**   - Related document type, ie: passport, driving license
 :document_nr: **string**   - Related document number, ie: passport number: LC45698122
 :notes: **string**   - Notes about client. Visible for admin only
 :lang: **string**   - Client language
@@ -463,7 +463,7 @@ Optional parameters
 :state: **string**   - country state
 :phone: **string**   - Phone number
 :phone_cc: **string**   - Phone country code
-:document_type: **string**   - Related document type, ie: passpord, driving license
+:document_type: **string**   - Related document type, ie: passport, driving license
 :document_nr: **string**   - Related document number, ie: passport number: LC45698122
 :lang: **string**   - Client language
 :notes: **string**   - Notes about client. Visible for admin only
@@ -507,7 +507,7 @@ Required parameters
 
 :id: **int**   - Client ID
 :password: **string**   - new client password
-:password_confirm: **string**   - repeast same new client password
+:password_confirm: **string**   - repeat same new client password
 
 API call examples
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -591,7 +591,7 @@ Required parameters
 
 :id: **int**   - Client ID
 :amount: **int**   - Amount of clients currency to added to balance
-:description: **int**   - Descrition of this transaction
+:description: **int**   - Description of this transaction
 
 Optional parameters
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -931,7 +931,7 @@ Currency management
 admin/currency/get_list
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Get list of availabe currencies on system
+Get list of available currencies on system
 
 
 
@@ -1736,7 +1736,7 @@ Optional parameters
 
 :installed: **bool**   - return installed only extensions
 :active: **bool**   - return installed and core extensions
-:has_settings: **bool**   - return extenssions with configuration pages only
+:has_settings: **bool**   - return extensions with configuration pages only
 :search: **string**   - filter extensions by search keyword
 :type: **string**   - filter extensions by type
 
@@ -2157,7 +2157,7 @@ Required parameters
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 :path: **string**   - filepath to file which is going to be moved
-:to: **string**   - new folder path. Do not iclude basename
+:to: **string**   - new folder path. Do not include basename
 
 API call examples
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -5380,7 +5380,7 @@ Notification
 Notifications center management.
 
 Notifications are important messages for staff messages to get informed
-about important events on boxbilling.
+about important events on BoxBilling.
 
 For example cron job can inform staff members 
 
@@ -5603,11 +5603,11 @@ Optional parameters
 
 :config: **array**   - Depending on product type, you may need to pass product configuration options
 :quantity: **int**   - Quantity of products to order. Default 1
-:price: **float**   - Overriden unit price in default currency. Default is product price for selected period.
+:price: **float**   - Overridden unit price in default currency. Default is product price for selected period.
 :group_id: **string**   - Order group id. Assign order to be as an addon for other order
 :currency: **string**   - Order currency. If not passed, default is used
 :title: **string**   - Order title. If not passed, product title is used
-:activate: **bool**   - activate imediately
+:activate: **bool**   - activate immediately
 :invoice_option: **string**   - Options: "no-invoice", "issue-invoice"; Default: no-invoice
 :created_at: **string**   - date when order was created. Default: now
 :updated_at: **string**   - date when order was updated. Default: now
@@ -6009,7 +6009,7 @@ API call examples
 admin/order/status_history_add
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Add order status hitory change
+Add order status history change
 
 
 
@@ -7178,7 +7178,7 @@ Optional parameters
 
 :execute_at: **string**   - Message execution time. Schedule message to be executed later, ie: 2022-12-29 14:53:51
 :params: **mixed**   - queue message params. Any serializable param
-:handler: **string**   - function hanlder. Static function name in extensions service class - default $queue name
+:handler: **string**   - function handler. Static function name in extensions service class - default $queue name
 :interval: **int**   - Interval to execute messages in the queue. Default 30
 :max: **int**   - Maximum amount of messages to be executed per interval. Default 25
 
@@ -8467,7 +8467,7 @@ Install domain registrar
 Required parameters
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:code: **string**   - registar code
+:code: **string**   - registrar code
 
 API call examples
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -8496,7 +8496,7 @@ Uninstall domain registrar
 Required parameters
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:id: **int**   - registar id
+:id: **int**   - registrar id
 
 API call examples
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -8525,7 +8525,7 @@ Copy domain registrar
 Required parameters
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:id: **int**   - registar id
+:id: **int**   - registrar id
 
 API call examples
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -8554,7 +8554,7 @@ Get domain registrar details
 Required parameters
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:id: **int**   - registar id
+:id: **int**   - registrar id
 
 API call examples
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -8608,7 +8608,7 @@ Update domain registrar
 Required parameters
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:id: **int**   - registar id
+:id: **int**   - registrar id
 
 Optional parameters
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -9126,7 +9126,7 @@ Optional parameters
 :password: **string**   - server API login password
 :accesshash: **string**   - server API login access hash 
 :port: **string**   - server API port
-:secure: **bool**   - flag to define wheather to use secure connection (https) to server or not (http)
+:secure: **bool**   - flag to define whether to use secure connection (https) to server or not (http)
 :active: **bool**   - flag to enable/disable server
 
 API call examples
@@ -9518,7 +9518,7 @@ API call examples
 admin/servicesolusvm/get_virtualization_types
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Return virtualization types solusvm supports
+Return virtualization types solusVM supports
 
 
 
@@ -10240,10 +10240,10 @@ admin/servicesolusvm/update
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Update existing order service
-This methd used to change clients data if order setup fails
+This method used to change clients data if order setup fails
 
-or you have changed data on solusvm server and you need to sync with
-boxbilling database
+or you have changed data on solusVM server and you need to sync with
+BoxBilling database
 
 API call examples
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -11568,7 +11568,7 @@ API call examples
 admin/support/batch_public_ticket_auto_close
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Action to close all inqueries which have not received any replies for a 
+Action to close all inquiries which have not received any replies for a
 time defined in helpdesk
 
 
@@ -12249,7 +12249,7 @@ Required parameters
 Optional parameters
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: **string**   - new catefory title
+:title: **string**   - new category title
 
 API call examples
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

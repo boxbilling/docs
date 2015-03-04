@@ -166,7 +166,7 @@ API call examples
 guest/cart/remove_item
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Removes product from shoping cart
+Removes product from shopping cart
 
 
 
@@ -271,7 +271,7 @@ Optional parameters
 :state: **string**   - country state
 :phone: **string**   - Phone number
 :phone_cc: **string**   - Phone country code
-:document_type: **string**   - Related document type, ie: passpord, driving license
+:document_type: **string**   - Related document type, ie: passport, driving license
 :document_nr: **string**   - Related document number, ie: passport number: LC45698122
 :notes: **string**   - Notes about client. Visible for admin only
 :custom_1: **string**   - Custom field 1
@@ -1333,7 +1333,7 @@ Products management api
 guest/product/get_list
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Get pagineted list of products
+Get paginated list of products
 
 
 
@@ -1472,7 +1472,7 @@ Optional parameters
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 :type: **string**   - product type for slider - default = hosting
-:format: **string**   - return format. Default is array . You can chosse json format, to directly inject to javascript
+:format: **string**   - return format. Default is array . You can choose json format, to directly inject to javascript
 
 API call examples
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -1500,15 +1500,15 @@ Domain service management
 guest/servicedomain/tlds
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Get configured TLDs which can be ordered. Shows only enabled TLDS
+Get configured TLDs which can be ordered. Shows only enabled TLDs
 
 
 
 Optional parameters
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:allow_register: **bool**   - shows only these tlds which can be registered
-:allow_transfer: **bool**   - shows only these tlds which can be transferred
+:allow_register: **bool**   - shows only these TLDs which can be registered
+:allow_transfer: **bool**   - shows only these TLDs which can be transferred
 
 API call examples
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -1643,7 +1643,7 @@ Required parameters
 Optional parameters
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:legacy: **string**   - deprecated paramater. Returns result in non consistent API result
+:legacy: **string**   - deprecated parameter. Returns result in non consistent API result
 
 API call examples
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -1671,7 +1671,7 @@ Solusvm service management
 guest/servicesolusvm/get_templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Return operating system templates available on solusvm master server
+Return operating system templates available on solusVM master server
 
 
 
@@ -1793,7 +1793,7 @@ guest/staff/create
 Gives ability to create administrator account if no admins exists on 
 the system.
 
-Database structure must be installed befor calling this action.
+Database structure must be installed before calling this action.
 bb-config.php file must already be present and configured.
 Used by automated BoxBilling installer.
 
@@ -2170,7 +2170,7 @@ Gets period title by identifier
 Required parameters
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:code: **string**   - Perdio code name, ie: 1M => Monthly
+:code: **string**   - Period code name, ie: 1M => Monthly
 
 API call examples
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -2216,7 +2216,7 @@ API call examples
 guest/system/current_url
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If called from template file this function returnes current url
+If called from template file this function returns current url
 
 
 

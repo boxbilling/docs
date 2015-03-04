@@ -554,7 +554,7 @@ API call examples
 client/forum/is_favorite
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Check if topic is added to favoites
+Check if topic is added to favorites
 
 
 
@@ -1062,7 +1062,7 @@ Client profile management
 client/profile/get
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Get currencly logged in client details
+Get currently logged in client details
 
 
 
@@ -1086,7 +1086,7 @@ API call examples
 client/profile/update
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Update currencty logged in client details
+Update currently logged in client details
 
 
 
