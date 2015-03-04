@@ -6,10 +6,10 @@ BoxBilling is a free billing & client management software
 * Supports automated billing, invoicing, product provisioning
 * Automatically create hosting accounts as soon as the payment is received, suspend when account becomes overdue, terminate when a specified amount of time passes.
 * Enable multiple currencies, accept one time and recurring payments
-* Boxbilling is perfectly created to sell shared and reseller hosting accounts, software licenses and downloadable products or any recurrent billing product.
+* BoxBilling is perfectly created to sell shared and reseller hosting accounts, software licenses and downloadable products or any recurrent billing product.
 * Helpdesk, knowledge base, news and announcements system.
 * Intuitive Web 2.0 AJAX powered interface with 100% usability score!
-* Client area can be translated in to any language.
+* Client area can be `translated in to any language`_.
 
 Automation
 --------------------------
@@ -18,7 +18,7 @@ Automation
 * Product creation can be also executed after the administrator approval.
 * Order can be automatically suspended is no payment was received for X days and unsuspended as soon the late payment will be collected.
 * Client area password can be automatically reset without the by the client itself.
-* Control panel password can be reset by the client itself without need to logon on to control panel (depends on server manager used). * * * Great if client forgets the hosting account control panel password.
+* Control panel password can be reset by the client itself without need to logon on to control panel (depends on server manager used). *Great if client forgets the hosting account control panel password.*
 * Payment reminders can be configured to be sent until the order will be terminated or late payment will be collected.
 * A custom event hook script can be executed on order activation / suspension / reactivation / cancellation so you can setup custom products easily and interrupt workflow as you need
 
@@ -38,7 +38,7 @@ Products
 * Ability to sell any kind of e-products, not just hosting, domains, servers, licensing or downloadable products.
 * Ability to give product name, description, image.
 * Setup one time payments.
-* Setup recurring payments to be billed: Monthly, quarterly, semiannually, annually, biannually and triennielly.
+* Setup recurring payments to be billed: Monthly, quarterly, semiannually, annually, biannually and triennially.
 * Ability to setup products that do not require payments (free) such as free hosting free downloads.
 * Domains can be chosen to be registered for free with any type or product. You can setup domain pricing for transfers, registrations, renewals.
 * You can choose how product is activated: as soon order is places, after the successful payment, or manually by the administrator.
@@ -52,7 +52,7 @@ Hosting Products
 * Easy server setup: provide IP, server type, username / password combination and everything else such as account creation will be done automatically.
 * Server access roles: BoxBilling will work perfectly no matter if you have root access or just a reseller account.
 * Disk space, bandwidth, additional features and function can be fully customized for each hosting plan.
-* Full integration and automation is available with BoxBilling extensions, such as cPanel, Plesk, Directadmin and others.
+* Full integration and automation is available with BoxBilling extensions, such as cPanel, Plesk, DirectAdmin and others.
 * Even if your hosting control panel is not supported you can use BoxBilling to track your orders and clients, just processes account creations / terminations on your server side manually.
 
 Licensing
@@ -98,14 +98,17 @@ Support
 
 * Integrated helpdesk allows you to communicate with clients easily.
 * Multiple helpdesk departments are supported so requests can be distributed through along your staff.
-* Knowledgebase suggestions are automatically displayed for your customers so they can get some question answered even without need to open a ticket.
+* Knowledge base suggestions are automatically displayed for your customers so they can get some question answered even without need to open a ticket.
 * Predefined replies can be inserted by the click of mouse and supports system, order and client details variable parsing. That saves a lot time for you and allows sending personalized predefined answers.
 * News & Announcements system allows you to inform your clients about what is going at the moment and notify about upcoming events.
-* Knowledgebase allows defining the answers for the most frequency asked questions.
+* Knowledge base allows defining the answers for the most frequently asked questions.
 
 Customization
 --------------------------
 
 * Custom client area themes can be easily integrated into BoxBilling.
 * Admin and client views and themes can be also fully customized by editing template files.
-* Languages can be fully modified; you can translate Boxbilling to any other language in just 30 minutes.
+* Languages can be fully modified; we are using power of crowdsourcing so that BoxBilling would be `available in multiple languages`_.
+
+.. _`translated in to any language`: https://www.transifex.com/projects/p/boxbilling/
+.. _`available in multiple languages`: https://www.transifex.com/projects/p/boxbilling/
