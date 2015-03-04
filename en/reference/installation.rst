@@ -49,7 +49,7 @@ by opening www.yourdomain.com/billing/install
 #. In the next screen a "Pre-Installation check" will recheck if the system (hosting account) does meet the minimum requirements for installation. Most often you will need to login to your account via a file manager (or FTP manager) and set the required permissions (chmod 777) on these files and folders.
 #. In the next step you will need to setup access to the MySQL database. Enter an existing database and user (with all permissions granted). If you have any trouble setting up a MySQL database and user, please consult your hosting provider. For example, if you are hosting on cPanel powered hosting, you can setup database and users via the cPanel > MySQL area.
 #. Enter the e-mail and credentials for the administrator account. A greeting letter will be sent to the administrator e-mail account upon successful installation of BoxBilling.
-#. Even though BoxBilling is free it requires `Obtain license key`_  in order to work. `Obtain license key`_
+#. Even though BoxBilling is free it requires to `obtain license key`_  in order to work.
 #. Finish installation with confirming that all the information is correct.
 
 After installation is complete
@@ -93,7 +93,7 @@ To enable search engine friendly urls follows these steps:
 
 .. note::
 
-    SEO urls will also turn on for admin area. Old links will stop working.
+    SEO urls will also be enabled for admin area. Old links will stop working.
 
 
 Debugging and error logging
@@ -134,13 +134,13 @@ bb-data
     Directory where BoxBilling cache, logs and uploaded data is stored
 
 bb-library
-    Directory for system files and extensions
+    Directory for system files and payment/registrar adapters
 
 bb-locale
-    Directory for interface translations.
+    Directory for interface translations
 
 bb-modules
-    Directory for modules
+    Directory for modules/extensions
 
 bb-themes
     Directory for client and admin area themes
@@ -152,4 +152,4 @@ index.php
     Main BoxBilling file where all requests are gathered
 
 .. _`download page`: http://www.boxbilling.com/download
-.. _`Obtain license key`: http://www.boxbilling.com/order
+.. _`obtain license key`: http://www.boxbilling.com/order

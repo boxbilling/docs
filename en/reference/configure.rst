@@ -4,7 +4,7 @@ Configure
 This guide will help you to get started with BoxBilling. To configure
 required settings in order to successfully use BoxBilling.
 
-All configurations are made at BoxBillings admin area. 
+All configurations are made in BoxBillings admin area.
 
 Setup your company information
 --------------------------------------------------------------------
@@ -13,7 +13,7 @@ Company information appears in client area, emails, invoices.
 
 To change company information go to **Configuration > General Settings** section
 
-You will be able to change your company details, change your logo.
+You will be able to change your company details and your logo.
 
 Decide what is your default currency
 --------------------------------------------------------------------
@@ -96,13 +96,13 @@ E-mail templates can be edited via the **Configuration > Email templates**.
 
 All templated e-mails are listed in the tree view box, and you can select any of them by clicking on it.
 
-In order to enable/disable email template go to **Advanced tab** in email template editing page and toggle **Enabled** parameter.
+In order to enable/disable email template go to **Template Settings** tab in email template editing page and toggle **Enabled** parameter.
 
 Each e-mail template has a Subject and Content that you can edit.
 
-Please notice that all dynamic fields are conveniently listed for you below the E-mail Content text box, sorted by their type. If you need to add any of them to your e-mail template, you can do this with a single click.
+Please notice that all dynamic fields are conveniently listed for you in **Variables** tab, sorted by their type. Feel free to use any of them in your template.
 
-When you have made your changes to the e-mail template, do not forget to save it by clicking **Update** at the bottom of page.
+When you have made your changes to the e-mail template, do not forget to save it by clicking **Update** at the bottom of page. You can also click on **Preview** button which will render template and show how it will look for client.
 
 
 Staff members
@@ -110,6 +110,8 @@ Staff members
 
 Staff management is one of the most useful modules of BoxBilling. Even though 
 it looks simple it is really powerful.
+
+You can set permissions to modules for each particular staff member and assign them to group for easier management.
 
 Add new Staff / Admin group
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

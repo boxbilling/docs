@@ -33,12 +33,12 @@ Product types
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 License
-    You can sell software licenses using BoxBilling. Provide your own algorythm
+    You can sell software licenses using BoxBilling. Provide your own algorithm
     to generate license key via simple plugin. By default license product has
     these options: license prefix, the length of the license code and which
     fields should be validated (IP, domain, version or path).
     License can be validated inside software by decoding license key or by
-    using licensing server. BoxBillind has its own licensing server so all
+    using licensing server. BoxBilling has its own licensing server so all
     callbacks from software can be made to validate licenses. You can also
     provide custom validation rules in licensing plugins.
 
@@ -50,8 +50,8 @@ Downloadable product
 
 Domain product
     Offer domain registrations, renewals, transfers with BoxBilling. Domain
-    pricing can be set for every tld seperately. Configure which domain can be
-    transfered, registered. Supports major domain registrars by default.
+    pricing can be set for every tld separately. Configure which domain can be
+    transferred, registered. Supports major domain registrars by default.
     More about at :ref:`service-domain`.
 
 Hosting
@@ -66,8 +66,56 @@ Custom product
     service or a period of time that the product will be used). Each product has
     a payment option (free, one time payment and subscription payment) and
     activation status (how it will be activated).
-    Custom product orders can be controlled via custom event hooks. For example
-    https://gist.github.com/1824466
+    Custom product orders can be controlled via custom event hooks. For example:
+
+.. code-block:: php
+
+    <?php
+    /**
+     * Example product plugin usage
+     */
+    class Hook_Custom
+    {
+        public static function onAfterOrderActivate(Box_Event $event)
+        {
+            $order = $event->getSubject();
+            $plugin = $order->Product->plugin;
+            if($plugin == 'MyPlugin') {
+                // init plugin class
+                // do something with plugin on order activation action
+            }
+        }
+
+        public static function onAfterOrderRenew(Box_Event $event)
+        {
+
+        }
+
+        public static function onAfterOrderSuspend(Box_Event $event)
+        {
+
+        }
+
+        public static function onAfterOrderUnsuspend(Box_Event $event)
+        {
+
+        }
+
+        public static function onAfterOrderCancel(Box_Event $event)
+        {
+
+        }
+
+        public static function onAfterOrderUncancel(Box_Event $event)
+        {
+
+        }
+
+        public static function onAfterOrderDelete(Box_Event $event)
+        {
+
+        }
+    }
 
 Product pricing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -114,8 +162,8 @@ To manage product promotions go to  *Admin area > Configuration > Product Promot
 
 Promotion can be one of these types:
 
-* Fixed amount discount (eg. $10 Off)
-* Percentage discount (eg. 15% Off)
+* Fixed amount discount (e.g. $10 Off)
+* Percentage discount (e.g. 15% Off)
 
 After you have setup promotion code your clients will be able to use this code
 at checkout process.
