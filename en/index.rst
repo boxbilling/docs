@@ -18,7 +18,7 @@ Getting help
 Having trouble? We'd like to help!
 
 * Active BoxBilling development and support is on GitHub at https://github.com/boxbilling/boxbilling
-* You are looking for main project website? It is http://www.boxbilling.com (needs updating)
+* You are looking for main project website? It is http://www.boxbilling.com *(also currently outdated)*
 * Try the :ref:`faq` - it's got answers to many common questions
 * Still can not find what you're looking for? Try :ref:`search`
 
