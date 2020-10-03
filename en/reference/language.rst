@@ -70,3 +70,48 @@ Removing languages from BoxBilling is really simple.
 Just delete language folder you wish from **bb-locale/** folder
 
 .. _`language repository`: https://www.transifex.com/projects/p/boxbilling/
+
+
+Adding new es_ES locales in Ubuntu 14.04 Operating System
+--------------------------------------------------------------
+# Change to the locales directory
+
+cd /usr/share/locales/
+
+# Create the script file to add the new locale to the OS. 
+# You can use nano editor to create install_locale.sh file and put inside the following commands:
+
+nano install_locale.sh
+
+#!/bin/bash
+# Install new locale
+# $ sudo sh install_locale.sh es_ES
+cd /usr/share/locales
+./install-language-pack $1
+dpkg-reconfigure locales
+locale -a
+
+# Save the script file created with nano
+
+CTRL + X y ENTER
+
+# Give exec privileges to the script
+
+chmod +x install_locale.sh
+
+# Run the previous script to generate the new locales 
+
+sh install_locale.sh es_ES
+
+# Check the system log
+
+Generating locales...
+es_ES.UTF-8... up-to-date
+Generation complete.
+
+# Restart the Web Server
+
+service apache2 restart
+
+# Now reload the BOX Billing app on your web browser to get your BB running in multi-language setup. 
+# Now you can choose spanish language in upper left corner.
