@@ -5,4 +5,4 @@
 *.sublime-*
 *.pyc
 build
-en/_build
+docs/_build

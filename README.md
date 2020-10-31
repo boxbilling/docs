@@ -1,6 +1,6 @@
 # BoxBilling Documentation
 
-## Welcome
+[![Build Status](https://travis-ci.org/boxbilling/docs.svg?branch=master)](https://travis-ci.org/boxbilling/docs)
 
 This is the repository for the BoxBilling documentation. Our documentation is
 hosted on [Read The Docs](https://readthedocs.org) which is automatically
