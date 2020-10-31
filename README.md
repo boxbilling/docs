@@ -12,4 +12,6 @@ The documentation language is [reStructuredText](https://www.sphinx-doc.org/en/m
 
 ## Build local version of docs
 
-    docker build --tag boxbilling-docs:1.0 .
+    docker build --tag boxbilling-docs:latest .
+    docker run -i -t -p 1318:8000 boxbilling-docs:latest python3 -m http.server --directory /docs/build/html
+
