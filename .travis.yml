@@ -1,0 +1,12 @@
+services:
+  - docker
+
+before_script:
+  - docker version
+
+script:
+  - docker build --tag "boxbilling-docs:latest" -f Dockerfile .
+
+after_script:
+  - docker images
+
