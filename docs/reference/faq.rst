@@ -1,6 +1,6 @@
 .. _faq:
 
-Faq
+Frequently Asked Questions
 ====================
 
 Check these already asked questions before submitting new ticket. It is very 
@@ -9,12 +9,7 @@ likely it has already been answered.
 Do I still need to buy PRO license if I use open source BoxBilling?
 ----------------------------------------------------------------------------
 
-Yes.
-
-How to obtain license key?
-----------------------------------------------------------------------------
-
-Get license at http://www.boxbilling.com/order
+No. Beginning from 4.22 release, you don't need to obtain any kind of license keys to use BoxBilling. We chose to make BoxBilling completely free starting with the 4.22 release.
 
 How can I access BoxBilling admin area?
 ----------------------------------------------------------------------------
@@ -34,21 +29,21 @@ See differences at order page http://www.boxbilling.com/order
 Blank page or Error 500
 ----------------------------------------------------------------------------
 
-Missing or disabled curl extension
+Missing or disabled cURL extension
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-BoxBilling use curl a lot - its by default enabled in php, but sometimes its 
-either not present or its in list of disabled_functions in php.ini
+BoxBilling uses cURL a lot - it's enabled in PHP by default, but sometimes it's 
+either not present or it's blacklisted in php.ini
 
-Using phpinfo() or php.ini check whether curl extension is enabled, 
-if not recompile php. If curl_exec is within disabled_functions list, 
-remove it from php.ini
+Use phpinfo() or php.ini check whether cURL extension is enabled.
+If curl_exec is within disabled_functions list, 
+remove it from the list.
 
 Cache folder is not writable
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 bb-data/cache folder is not writable. BoxBilling keeps compiled templates in 
-this directory, if its not writable it may result with blank page error.
+this directory, if it's not writable it may result in this error.
 To fix that: CHMOD 777 bb-data/cache
 
 Low memory_limit
