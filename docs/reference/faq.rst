@@ -9,12 +9,7 @@ likely it has already been answered.
 Do I still need to buy PRO license if I use open source BoxBilling?
 ----------------------------------------------------------------------------
 
-Yes.
-
-How to obtain license key?
-----------------------------------------------------------------------------
-
-Get license at http://www.boxbilling.com/order
+No. Beginning from 4.22 release, you don't need to obtain any kind of license keys to use BoxBilling. We chose to make BoxBilling completely free starting with the 4.22 release.
 
 How can I access BoxBilling admin area?
 ----------------------------------------------------------------------------
