@@ -5,11 +5,13 @@ Unofficial extensions
 Payment gateways:
 -----------------
 
-- `PayFast`_
 - `Coinify`_
+- `Gerencianet`_
+- `PayFast`_
 
-.. _`PayFast`: https://www.payfast.co.za/s/std/boxbilling
 .. _`Coinify`: https://github.com/CoinifySoftware/boxbilling/blob/master/upload/bb-library/Payment/Adapter/coinify.php
+.. _`Gerencianet`: https://dev.gerencianet.com.br/docs/box-billing
+.. _`PayFast`: https://www.payfast.co.za/integration/shopping-carts/boxbilling
 
 Server Managers:
 ----------------
