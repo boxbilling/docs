@@ -16,4 +16,4 @@ Server Managers:
 
 - `Vesta`_
 
-.. _`Vesta`: https://github.com/estratos/Boxbilling/blob/master/bb-library/Server/Manager/Vesta.php
+.. _`Vesta`: https://github.com/estratos/Boxbilling-vesta/blob/master/bb-library/Server/Manager/Vesta.php
