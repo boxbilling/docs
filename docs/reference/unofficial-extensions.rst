@@ -14,6 +14,8 @@ Payment gateways:
 Server Managers:
 ----------------
 
-- `Vesta`_
+- `VestaCP`_
+- `HestiaCP`_
 
-.. _`Vesta`: https://github.com/estratos/Boxbilling/blob/master/bb-library/Server/Manager/Vesta.php
+.. _`VestaCP`: https://github.com/jaapmarcus/boxbilling-hestia/blob/main/bb-libary/Server/Manager/Vesta.php
+.. _`HestiaCP`: https://github.com/jaapmarcus/boxbilling-hestia/blob/main/bb-libary/Server/Manager/Hestia.php
