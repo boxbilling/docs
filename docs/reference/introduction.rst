@@ -17,7 +17,7 @@ Automation
 * Product creation for hosting accounts, domains, licenses, and downloadable products can be done automatically after the successful payment is received or even with no payment received.
 * Product creation can be also executed after the administrator approval.
 * Order can be automatically suspended is no payment was received for X days and unsuspended as soon the late payment will be collected.
-* Client area password can be automatically reset without the by the client itself.
+* Client area password can be automatically reset by the client itself.
 * Control panel password can be reset by the client itself without need to logon on to control panel (depends on server manager used). *Great if client forgets the hosting account control panel password.*
 * Payment reminders can be configured to be sent until the order will be terminated or late payment will be collected.
 * A custom event hook script can be executed on order activation / suspension / reactivation / cancellation so you can setup custom products easily and interrupt workflow as you need
